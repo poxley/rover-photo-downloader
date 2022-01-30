@@ -13,7 +13,7 @@ A simple REST app that retrieves NASA Mars Rover images for a given date
 - Use terminal (Command Prompt) to navigate to development directory: `> cd path_to_dev_directory`
 - Clone the app repository`> git clone git@github.com:poxley/rover-photo-downloader.git`
 - Navigate to app directory `> cd rover-photo-downloader`
-- Copy example environment file for use by app `> cp example-environment.js environment.js`
+- Copy example environment file for use by app `> copy example-environment.js environment.js`
 - By default, app uses port 8080 and uses a NASA demo api key. These defaults can be changed by editing the environment.js file
   - The demo api key has a very low rate limit. You can apply for a (free) key with a much higher limit at https://api.nasa.gov/
 - Start the app `> node app.js`
