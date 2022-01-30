@@ -48,14 +48,14 @@ A simple REST app that retrieves NASA Mars Rover images for a given date
 - File System *Sync functions are blocking and generally to be avoided in a production/server environment. They are used here for simplicity and because we do not expect multiple simultaneous operations
 
 
-## I used the following Resources
+## I used the following resources
 
 - HTTP requests without installing a client: https://www.twilio.com/blog/2017/08/http-requests-in-node-js.html
 - Using fs to save a file: https://www.geeksforgeeks.org/how-to-download-a-file-using-node-js/ (Method 1)
 - Appropriate HTTP codes for responses: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 
 
-## Unit Tests
+## Unit tests
 
 1. test: expected api call
    - call to `http://localhost:8080/api/v1/roverphotos?earthdate=2022-01-15`
