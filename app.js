@@ -2,7 +2,7 @@
 // api server and routes
 
 const http = require("http");
-const environment = require("./enviornment");
+const environment = require("./environment");
 const controller = require("./controller");
 environment.set();
 
