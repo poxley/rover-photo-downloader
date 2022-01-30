@@ -55,7 +55,7 @@ A simple REST app that retrieves NASA Mars Rover images for a given date
 - Appropriate HTTP codes for responses: https://en.wikipedia.org/wiki/List_of_HTTP_status_codes
 
 
-## Unit tests
+## Manual tests
 
 1. test: expected api call
    - call to `http://localhost:8080/api/v1/roverphotos?earthdate=2022-01-15`
