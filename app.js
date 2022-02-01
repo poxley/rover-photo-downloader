@@ -1,5 +1,5 @@
 // app.js
-// api server and routes
+// app server and routes
 
 const http = require("http");
 const environment = require("./environment");
