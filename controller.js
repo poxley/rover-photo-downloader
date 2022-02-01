@@ -1,5 +1,5 @@
 // controller.js
-// functionality of the api
+// functionality of the app
 
 // normally, we'd use an http client (e.g. request or axios) to make our 3rd party api requests,
 // but for this intentionally minimal api, using the standard library avoids having to install a client.
