@@ -36,12 +36,12 @@ A simple REST app that retrieves NASA Mars Rover images for a given date
 - The app response includes:
   - an HTTP response code and description or 3rd party error message
   - number of images found/downloaded and the destination directory
-- ***!!!!! Please Note: the response is not sent until the download process is complete. If many images are found for a date, this may take some time. Please be patient!***
+- ***!!!!! Please Note: the response is sent before the download process is complete. If many images are found for a date, completing the downloads may take some time. Please be patient!***
 
 
 ## Discussion
 
-- Some non-standard decisions were made based on the limited scope of the project and an attempt to keep the codebase small
+- Some non-standard decisions were made based on the limited scope of the project and an attempt to keep the codebase small:
   - Used Standard Library instead of installing an HTTP Client (like Axios) for 3rd party API calls
   - Used environment.js to set environment variables instead of installing a service like dotenv
 - User input is limited, so data validation is minimal
